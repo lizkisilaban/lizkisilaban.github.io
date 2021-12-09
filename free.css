@@ -1,0 +1,150 @@
+body {
+    background-image: url("bgg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.medsos {
+    padding: 5px;
+}
+
+.medsos ul li {
+    display: inline-block;
+    color: black;
+}
+
+.rindu ul li a {
+    color: rgb(6, 216, 16)
+}
+
+.imajo {
+    background-image: url("map.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+}
+
+.holong {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hasian li a {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 30%;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 12px;
+}
+
+.holonghu {
+    position: absolute;
+    float: left;
+    margin-left: 382px;
+    margin-top: 60px;
+}
+
+.haholongan {
+    margin-top: 90px;
+}
+
+h4 {
+    margin-top: 45px;
+    color: #1c75bb;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.black {
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555555;
+}
+
+.loving {
+    font-size: 16px;
+    color: #555555;
+}
+
+.text {
+    position: absolute;
+    top: 1693px;
+    padding-left: 260px
+}
+
+.text h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+}
+
+.contan {
+    position: relative;
+    font-family: Arial;
+}
+
+.textt {
+    position: absolute;
+    padding-left: 1010px;
+    margin-right: 220px;
+    top: -238px;
+}
+
+.textt h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.mulana {
+    margin-top: 140px;
+}
+
+footer {
+    background-color: #5255fc;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #f6f6f6;
+    font-size: 18px;
+    padding-top: 67px;
+}
+
+.kamman {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.kammann {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.foot {
+    line-height: 100px;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    margin-left: 550px !important;
+}
