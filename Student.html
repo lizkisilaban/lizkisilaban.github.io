@@ -161,12 +161,27 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="jurusan">Jurusan</label>
-                        <input v-model="jurusan" type="text" class="form-control" id="jurusan" placeholder="Enter your major">
+                        <label for="jurusan" class="form-label">Prodi</label>
+                        <select class="form-select" v-model="jurusan" id="jurusan">
+                          <option>Teknik Informatika</option>
+                          <option>Sistem Informasi</option>
+                          <option>Filsafat S1</option>
+                          <option>Akuntansi</option>
+                          <option>Manajemen</option>
+                          <option>Keperawatan</option>
+                          <option>Pendidikan Bahasa Inggris</option>
+                          <option>Pendidikan Matematika</option>
+                          <option>Sekretaris</option>
+                          <option>Farmasi</option>
+                          <option>Biogi</option>
+                          <option>Keperawatan D3</option>
+                          <option>Ners</option>
+                        </select>
                         <div class="invalid-feedback">
-                            Please enter a valid major.
+                            Please enter a study program.
                         </div>
                     </div>
+
 
                     <div class="mb-3">
                         <label for="idPetugas" class="form-label">ID Petugas</label>
