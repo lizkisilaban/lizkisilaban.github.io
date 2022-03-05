@@ -47,14 +47,14 @@
                         <a class="nav-link active" href="Denda.html">Denda</a>
                     </li>
                     <li class="nav-item col-2">
-                        <a class="nav-link" href="#">Anggota</a>
+                        <a class="nav-link" href="#" disabled>Anggota</a>
                     </li>
                     <li class="nav-item col-2">
-                        <a class="nav-link" href="#">Profile</a>
+                        <a class="nav-link" href="#" disabled>Profile</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" disabled>
                     <button class="btn btn-outline-success bg-info" type="submit">Search</button>
                 </form>
             </div>
@@ -98,11 +98,11 @@
                     {{ message }}
                 </div>
 
-                <button class="btn btn-md btn-primary" v-on:click="resetForm()">Create new User </button>
+                <button class="btn btn-md btn-primary" v-on:click="resetForm()">enter a new fine</button>
                 <p></p>
                 <br>
                 <p style="font-weight: 100px;">Masukan Nama atau NIM untuk mulai transaksi:</p>
-                <h4 class="mb-3">User Information</h4>
+               
                 <form class="needs-validation" novalidate>
                     <div class="row">
                         <div class="col-md-6 mb-3">
@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="nimMahasiswa">NIM Mahasiswa</label>
-                            <input v-model="nimMahasiswa" type="text" class="form-control" id="nimMahasiswa" placeholder=" Enter NIM">
+                            <input v-model="nimMahasiswa" type="number" class="form-control" id="nimMahasiswa" placeholder=" Enter NIM">
                             <div class="invalid-feedback">
                                 Valid NIM Mahasiswa is required.
                             </div>
