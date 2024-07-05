@@ -138,13 +138,15 @@
                         </div>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="keterlambatan">Keterlambatan(Hari)</label>
-                        <input v-model="keterlambatan" type="text" class="form-control" id="keterlambatan" placeholder="Enter the number of days of delay">
-                        <div class="invalid-feedback">
-                            Please Enter the number of days of delay.
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="keterlambatan">Keterlambatan(Hari)</label>
+                            <input v-model="keterlambatan" type="text" class="form-control" id="keterlambatan" placeholder="Enter the number of days of delay">
+                            <div class="invalid-feedback">
+                                Please Enter the number of days of delay.
+                            </div>
                         </div>
-                         <div class="col-md-6 mb-3">
+                        <div class="col-md-6 mb-3">
                             <label for="jlhDenda">Jumlah Denda(Rp)</label>
                             <input v-model="jlhDenda" type="text" class="form-control" id="jlhDenda" placeholder="Enter the amount of the fine">
                             <div class="invalid-feedback">
